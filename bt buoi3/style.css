@@ -1,0 +1,99 @@
+/*           style cơ bản */
+
+body{
+    box-sizing: border-box;
+    display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #3498db;
+  line-height: 1.15;
+  align-items: center;
+}
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.hide{
+  display: none;
+}
+
+#button-search{
+ 
+ background-color: rgb(61, 61, 196);
+ padding: 10px 10px;
+ border: none;
+ cursor: pointer;
+ 
+ 
+}
+.nvm-search{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+#search-box{
+  background: #fff;
+  border: 5px solid #4834d4;
+  box-sizing: border-box;
+  
+  
+}  
+#search-box .search-sett {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  box-sizing: border-box;
+  font-size: 18px;
+  max-width: 500px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+   background-color: #fff;
+   justify-content: center;
+   align-items: center;
+   text-decoration: underline;
+   font-weight: 600;
+   border: 1px solid black;
+   padding-bottom: 20px;
+  
+}
+#products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+.image-container{
+  flex-basis: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+    height: 300px;
+    width: 200px;
+}
+.container {
+    
+    display: flex;
+    padding-top: 100px;
+}
+
+ul li nav {
+  list-style-type: none;
+}
+.product-name{
+  font-weight: 400;
+  font-family:'Times New Roman', Times, serif;
+}
